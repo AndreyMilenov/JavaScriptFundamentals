@@ -38,6 +38,32 @@ console.log(pi.toFixed(2))
 console.log(pi.toFixed(2));
 console.log(Math.round(pi));
 
+// Switch statement
+const name ='pesho'
+switch (name) {
+    case 'pesho':
+        console.log('Maraba pesho')
+        break;                                                                  
+    default:
+        console.log('Maraba gosho')    
+}
 
+// Truthy and Falsy values
 
+if (name) {
+    console.log('There is Pesho');
+} else {
+    console.log('There is no Psho')
+}
 
+// For loop
+for(let i = 0; i< 10; i++){
+   // console.log(i);
+}
+
+// While loop 
+let i = 0;
+while (i < 10) {
+    console.log(i);
+    i++;
+}
